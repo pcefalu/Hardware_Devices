@@ -16,3 +16,8 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+Hardware_Devices/GPS/iTunesArtwork
+Hardware_Devices/Icons/Archive/Accelerometer.png
+Hardware_Devices/Icons/Archive/Credits.png
+Hardware_Devices/Icons/Archive/GPS.png
+Hardware_Devices/Icons/Archive/Proximity.png
