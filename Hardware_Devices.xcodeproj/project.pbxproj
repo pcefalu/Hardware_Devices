@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7ECB1218A94555000AA33B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECB1118A94555000AA33B /* Foundation.framework */; };
+		CE7ECB1418A94555000AA33B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECB1318A94555000AA33B /* CoreGraphics.framework */; };
+		CE7ECB1618A94555000AA33B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECB1518A94555000AA33B /* UIKit.framework */; };
+		CE7ECB1C18A94555000AA33B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB1A18A94555000AA33B /* InfoPlist.strings */; };
+		CE7ECB1E18A94555000AA33B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB1D18A94555000AA33B /* main.m */; };
+		CE7ECB2218A94555000AA33B /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB2118A94555000AA33B /* CAppDelegate.m */; };
+		CE7ECB2518A94555000AA33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB2318A94555000AA33B /* Main.storyboard */; };
+		CE7ECB2818A94555000AA33B /* CCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB2718A94555000AA33B /* CCreditsViewController.m */; };
+		CE7ECB2D18A94555000AA33B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB2C18A94555000AA33B /* Images.xcassets */; };
+		CE7ECB3418A94555000AA33B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECB3318A94555000AA33B /* XCTest.framework */; };
+		CE7ECB3518A94555000AA33B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECB1118A94555000AA33B /* Foundation.framework */; };
+		CE7ECB3618A94555000AA33B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECB1518A94555000AA33B /* UIKit.framework */; };
+		CE7ECB3E18A94555000AA33B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB3C18A94555000AA33B /* InfoPlist.strings */; };
+		CE7ECB4018A94555000AA33B /* Hardware_DevicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB3F18A94555000AA33B /* Hardware_DevicesTests.m */; };
+		CE7ECB4B18A9A42E000AA33B /* CGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB4A18A9A42E000AA33B /* CGPSViewController.m */; };
+		CE7ECB5118A9A6B2000AA33B /* CProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB5018A9A6B2000AA33B /* CProximityViewController.m */; };
+		CE7ECB5418A9A6D5000AA33B /* CAccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB5318A9A6D5000AA33B /* CAccelerometerViewController.m */; };
+		CE7ECB5C18AA1C0A000AA33B /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB5718AA1C0A000AA33B /* AccelerometerFilter.m */; };
+		CE7ECB5D18AA1C0A000AA33B /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB5918AA1C0A000AA33B /* GraphView.m */; };
+		CE7ECB6118AA45C5000AA33B /* CMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB6018AA45C5000AA33B /* CMainViewController.m */; };
+		CE7ECB6718AA4B55000AA33B /* Accelerometer.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB6318AA4B55000AA33B /* Accelerometer.png */; };
+		CE7ECB6818AA4B55000AA33B /* Credits.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB6418AA4B55000AA33B /* Credits.png */; };
+		CE7ECB6918AA4B55000AA33B /* GPS.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB6518AA4B55000AA33B /* GPS.png */; };
+		CE7ECB6A18AA4B55000AA33B /* Proximity.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB6618AA4B55000AA33B /* Proximity.png */; };
+		CE7ECB6C18AA5373000AA33B /* The App Bot White Right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB6B18AA5373000AA33B /* The App Bot White Right.png */; };
+		CE7ECB7718AA57E3000AA33B /* CLLocation (Strings).m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB6E18AA57E3000AA33B /* CLLocation (Strings).m */; };
+		CE7ECB7818AA57E3000AA33B /* GetLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB7018AA57E3000AA33B /* GetLocationViewController.m */; };
+		CE7ECB7918AA57E3000AA33B /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB7218AA57E3000AA33B /* LocationDetailViewController.m */; };
+		CE7ECB7A18AA57E3000AA33B /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB7418AA57E3000AA33B /* SetupViewController.m */; };
+		CE7ECB7B18AA57E3000AA33B /* TrackLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB7618AA57E3000AA33B /* TrackLocationViewController.m */; };
+		CE7ECB8018AA5D54000AA33B /* bullseye.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB7D18AA5D54000AA33B /* bullseye.png */; };
+		CE7ECB8118AA5D54000AA33B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB7E18AA5D54000AA33B /* Default.png */; };
+		CE7ECB8218AA5D54000AA33B /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB7F18AA5D54000AA33B /* pin.png */; };
+		CE7ECB8718AA8576000AA33B /* CPopFromSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB8418AA8576000AA33B /* CPopFromSegue.m */; };
+		CE7ECB8818AA8576000AA33B /* CPushToSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECB8618AA8576000AA33B /* CPushToSegue.m */; };
+		CE7ECB8A18AA934F000AA33B /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB8918AA934F000AA33B /* Button.png */; };
+		CE7ECB8C18AA965F000AA33B /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECB8B18AA965F000AA33B /* Globe.png */; };
+		CE7ECC0318AB2641000AA33B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ECC0218AB2641000AA33B /* CoreLocation.framework */; };
+		CE7ECC0718AB4CD1000AA33B /* CAccuracyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7ECC0418AB4CD1000AA33B /* CAccuracyCellView.xib */; };
+		CE7ECC0818AB4CD1000AA33B /* CAccuracyCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ECC0618AB4CD1000AA33B /* CAccuracyCellViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7ECB3718A94555000AA33B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7ECB0618A94555000AA33B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7ECB0D18A94555000AA33B;
+			remoteInfo = Hardware_Devices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7ECB0E18A94555000AA33B /* Hardware_Devices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hardware_Devices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7ECB1118A94555000AA33B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE7ECB1318A94555000AA33B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE7ECB1518A94555000AA33B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE7ECB1918A94555000AA33B /* Hardware_Devices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hardware_Devices-Info.plist"; sourceTree = "<group>"; };
+		CE7ECB1B18A94555000AA33B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE7ECB1D18A94555000AA33B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7ECB1F18A94555000AA33B /* Hardware_Devices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hardware_Devices-Prefix.pch"; sourceTree = "<group>"; };
+		CE7ECB2018A94555000AA33B /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
+		CE7ECB2118A94555000AA33B /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
+		CE7ECB2418A94555000AA33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7ECB2718A94555000AA33B /* CCreditsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCreditsViewController.m; sourceTree = "<group>"; };
+		CE7ECB2C18A94555000AA33B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE7ECB3218A94555000AA33B /* Hardware_DevicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hardware_DevicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7ECB3318A94555000AA33B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE7ECB3B18A94555000AA33B /* Hardware_DevicesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hardware_DevicesTests-Info.plist"; sourceTree = "<group>"; };
+		CE7ECB3D18A94555000AA33B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE7ECB3F18A94555000AA33B /* Hardware_DevicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hardware_DevicesTests.m; sourceTree = "<group>"; };
+		CE7ECB4918A9A42E000AA33B /* CGPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPSViewController.h; path = GPS/CGPSViewController.h; sourceTree = "<group>"; };
+		CE7ECB4A18A9A42E000AA33B /* CGPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGPSViewController.m; path = GPS/CGPSViewController.m; sourceTree = "<group>"; };
+		CE7ECB4F18A9A6B2000AA33B /* CProximityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CProximityViewController.h; path = Proximity/CProximityViewController.h; sourceTree = "<group>"; };
+		CE7ECB5018A9A6B2000AA33B /* CProximityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CProximityViewController.m; path = Proximity/CProximityViewController.m; sourceTree = "<group>"; };
+		CE7ECB5218A9A6D5000AA33B /* CAccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAccelerometerViewController.h; path = Accelerometer/CAccelerometerViewController.h; sourceTree = "<group>"; };
+		CE7ECB5318A9A6D5000AA33B /* CAccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAccelerometerViewController.m; path = Accelerometer/CAccelerometerViewController.m; sourceTree = "<group>"; };
+		CE7ECB5518AA1BBD000AA33B /* CCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCreditsViewController.h; sourceTree = "<group>"; };
+		CE7ECB5618AA1C0A000AA33B /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccelerometerFilter.h; path = Accelerometer/AccelerometerFilter.h; sourceTree = "<group>"; };
+		CE7ECB5718AA1C0A000AA33B /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccelerometerFilter.m; path = Accelerometer/AccelerometerFilter.m; sourceTree = "<group>"; };
+		CE7ECB5818AA1C0A000AA33B /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphView.h; path = Accelerometer/GraphView.h; sourceTree = "<group>"; };
+		CE7ECB5918AA1C0A000AA33B /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphView.m; path = Accelerometer/GraphView.m; sourceTree = "<group>"; };
+		CE7ECB5F18AA45C5000AA33B /* CMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMainViewController.h; sourceTree = "<group>"; };
+		CE7ECB6018AA45C5000AA33B /* CMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMainViewController.m; sourceTree = "<group>"; };
+		CE7ECB6318AA4B55000AA33B /* Accelerometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Accelerometer.png; path = Icons/Accelerometer.png; sourceTree = "<group>"; };
+		CE7ECB6418AA4B55000AA33B /* Credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Credits.png; path = Icons/Credits.png; sourceTree = "<group>"; };
+		CE7ECB6518AA4B55000AA33B /* GPS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GPS.png; path = Icons/GPS.png; sourceTree = "<group>"; };
+		CE7ECB6618AA4B55000AA33B /* Proximity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Proximity.png; path = Icons/Proximity.png; sourceTree = "<group>"; };
+		CE7ECB6B18AA5373000AA33B /* The App Bot White Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The App Bot White Right.png"; sourceTree = "<group>"; };
+		CE7ECB6D18AA57E3000AA33B /* CLLocation (Strings).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocation (Strings).h"; path = "GPS/CLLocation (Strings).h"; sourceTree = "<group>"; };
+		CE7ECB6E18AA57E3000AA33B /* CLLocation (Strings).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocation (Strings).m"; path = "GPS/CLLocation (Strings).m"; sourceTree = "<group>"; };
+		CE7ECB6F18AA57E3000AA33B /* GetLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetLocationViewController.h; path = GPS/GetLocationViewController.h; sourceTree = "<group>"; };
+		CE7ECB7018AA57E3000AA33B /* GetLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetLocationViewController.m; path = GPS/GetLocationViewController.m; sourceTree = "<group>"; };
+		CE7ECB7118AA57E3000AA33B /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationDetailViewController.h; path = GPS/LocationDetailViewController.h; sourceTree = "<group>"; };
+		CE7ECB7218AA57E3000AA33B /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationDetailViewController.m; path = GPS/LocationDetailViewController.m; sourceTree = "<group>"; };
+		CE7ECB7318AA57E3000AA33B /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupViewController.h; path = GPS/SetupViewController.h; sourceTree = "<group>"; };
+		CE7ECB7418AA57E3000AA33B /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupViewController.m; path = GPS/SetupViewController.m; sourceTree = "<group>"; };
+		CE7ECB7518AA57E3000AA33B /* TrackLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackLocationViewController.h; path = GPS/TrackLocationViewController.h; sourceTree = "<group>"; };
+		CE7ECB7618AA57E3000AA33B /* TrackLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackLocationViewController.m; path = GPS/TrackLocationViewController.m; sourceTree = "<group>"; };
+		CE7ECB7D18AA5D54000AA33B /* bullseye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullseye.png; path = GPS/images/bullseye.png; sourceTree = "<group>"; };
+		CE7ECB7E18AA5D54000AA33B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = GPS/images/Default.png; sourceTree = "<group>"; };
+		CE7ECB7F18AA5D54000AA33B /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = GPS/images/pin.png; sourceTree = "<group>"; };
+		CE7ECB8318AA8576000AA33B /* CPopFromSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPopFromSegue.h; sourceTree = "<group>"; };
+		CE7ECB8418AA8576000AA33B /* CPopFromSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPopFromSegue.m; sourceTree = "<group>"; };
+		CE7ECB8518AA8576000AA33B /* CPushToSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPushToSegue.h; sourceTree = "<group>"; };
+		CE7ECB8618AA8576000AA33B /* CPushToSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPushToSegue.m; sourceTree = "<group>"; };
+		CE7ECB8918AA934F000AA33B /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button.png; path = GPS/images/Button.png; sourceTree = "<group>"; };
+		CE7ECB8B18AA965F000AA33B /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Globe.png; path = GPS/images/Globe.png; sourceTree = "<group>"; };
+		CE7ECC0218AB2641000AA33B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE7ECC0418AB4CD1000AA33B /* CAccuracyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CAccuracyCellView.xib; path = GPS/CAccuracyCellView.xib; sourceTree = "<group>"; };
+		CE7ECC0518AB4CD1000AA33B /* CAccuracyCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAccuracyCellViewController.h; path = GPS/CAccuracyCellViewController.h; sourceTree = "<group>"; };
+		CE7ECC0618AB4CD1000AA33B /* CAccuracyCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAccuracyCellViewController.m; path = GPS/CAccuracyCellViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7ECB0B18A94555000AA33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7ECC0318AB2641000AA33B /* CoreLocation.framework in Frameworks */,
+				CE7ECB1418A94555000AA33B /* CoreGraphics.framework in Frameworks */,
+				CE7ECB1618A94555000AA33B /* UIKit.framework in Frameworks */,
+				CE7ECB1218A94555000AA33B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7ECB2F18A94555000AA33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7ECB3418A94555000AA33B /* XCTest.framework in Frameworks */,
+				CE7ECB3618A94555000AA33B /* UIKit.framework in Frameworks */,
+				CE7ECB3518A94555000AA33B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7ECB0518A94555000AA33B = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB1718A94555000AA33B /* Hardware_Devices */,
+				CE7ECB3918A94555000AA33B /* Hardware_DevicesTests */,
+				CE7ECB1018A94555000AA33B /* Frameworks */,
+				CE7ECB0F18A94555000AA33B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7ECB0F18A94555000AA33B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB0E18A94555000AA33B /* Hardware_Devices.app */,
+				CE7ECB3218A94555000AA33B /* Hardware_DevicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7ECB1018A94555000AA33B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECC0218AB2641000AA33B /* CoreLocation.framework */,
+				CE7ECB1118A94555000AA33B /* Foundation.framework */,
+				CE7ECB1318A94555000AA33B /* CoreGraphics.framework */,
+				CE7ECB1518A94555000AA33B /* UIKit.framework */,
+				CE7ECB3318A94555000AA33B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7ECB1718A94555000AA33B /* Hardware_Devices */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB4E18A9A67E000AA33B /* Proximity Controller */,
+				CE7ECB4D18A9A66F000AA33B /* Accelerometer Controller */,
+				CE7ECB4C18A9A650000AA33B /* GPS Controller */,
+				CE7ECB2018A94555000AA33B /* CAppDelegate.h */,
+				CE7ECB2118A94555000AA33B /* CAppDelegate.m */,
+				CE7ECB2318A94555000AA33B /* Main.storyboard */,
+				CE7ECB5518AA1BBD000AA33B /* CCreditsViewController.h */,
+				CE7ECB2718A94555000AA33B /* CCreditsViewController.m */,
+				CE7ECB5F18AA45C5000AA33B /* CMainViewController.h */,
+				CE7ECB6018AA45C5000AA33B /* CMainViewController.m */,
+				CE7ECB2C18A94555000AA33B /* Images.xcassets */,
+				CE7ECB1818A94555000AA33B /* Supporting Files */,
+			);
+			path = Hardware_Devices;
+			sourceTree = "<group>";
+		};
+		CE7ECB1818A94555000AA33B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB8318AA8576000AA33B /* CPopFromSegue.h */,
+				CE7ECB8418AA8576000AA33B /* CPopFromSegue.m */,
+				CE7ECB8518AA8576000AA33B /* CPushToSegue.h */,
+				CE7ECB8618AA8576000AA33B /* CPushToSegue.m */,
+				CE7ECB7C18AA5D36000AA33B /* Images */,
+				CE7ECB6218AA4B3D000AA33B /* Icons */,
+				CE7ECB1918A94555000AA33B /* Hardware_Devices-Info.plist */,
+				CE7ECB1A18A94555000AA33B /* InfoPlist.strings */,
+				CE7ECB1D18A94555000AA33B /* main.m */,
+				CE7ECB1F18A94555000AA33B /* Hardware_Devices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7ECB3918A94555000AA33B /* Hardware_DevicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB3F18A94555000AA33B /* Hardware_DevicesTests.m */,
+				CE7ECB3A18A94555000AA33B /* Supporting Files */,
+			);
+			path = Hardware_DevicesTests;
+			sourceTree = "<group>";
+		};
+		CE7ECB3A18A94555000AA33B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB3B18A94555000AA33B /* Hardware_DevicesTests-Info.plist */,
+				CE7ECB3C18A94555000AA33B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7ECB4C18A9A650000AA33B /* GPS Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECC0418AB4CD1000AA33B /* CAccuracyCellView.xib */,
+				CE7ECC0518AB4CD1000AA33B /* CAccuracyCellViewController.h */,
+				CE7ECC0618AB4CD1000AA33B /* CAccuracyCellViewController.m */,
+				CE7ECB6D18AA57E3000AA33B /* CLLocation (Strings).h */,
+				CE7ECB6E18AA57E3000AA33B /* CLLocation (Strings).m */,
+				CE7ECB6F18AA57E3000AA33B /* GetLocationViewController.h */,
+				CE7ECB7018AA57E3000AA33B /* GetLocationViewController.m */,
+				CE7ECB7118AA57E3000AA33B /* LocationDetailViewController.h */,
+				CE7ECB7218AA57E3000AA33B /* LocationDetailViewController.m */,
+				CE7ECB7318AA57E3000AA33B /* SetupViewController.h */,
+				CE7ECB7418AA57E3000AA33B /* SetupViewController.m */,
+				CE7ECB7518AA57E3000AA33B /* TrackLocationViewController.h */,
+				CE7ECB7618AA57E3000AA33B /* TrackLocationViewController.m */,
+				CE7ECB4918A9A42E000AA33B /* CGPSViewController.h */,
+				CE7ECB4A18A9A42E000AA33B /* CGPSViewController.m */,
+			);
+			name = "GPS Controller";
+			sourceTree = "<group>";
+		};
+		CE7ECB4D18A9A66F000AA33B /* Accelerometer Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB5618AA1C0A000AA33B /* AccelerometerFilter.h */,
+				CE7ECB5718AA1C0A000AA33B /* AccelerometerFilter.m */,
+				CE7ECB5818AA1C0A000AA33B /* GraphView.h */,
+				CE7ECB5918AA1C0A000AA33B /* GraphView.m */,
+				CE7ECB5218A9A6D5000AA33B /* CAccelerometerViewController.h */,
+				CE7ECB5318A9A6D5000AA33B /* CAccelerometerViewController.m */,
+			);
+			name = "Accelerometer Controller";
+			sourceTree = "<group>";
+		};
+		CE7ECB4E18A9A67E000AA33B /* Proximity Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB4F18A9A6B2000AA33B /* CProximityViewController.h */,
+				CE7ECB5018A9A6B2000AA33B /* CProximityViewController.m */,
+			);
+			name = "Proximity Controller";
+			sourceTree = "<group>";
+		};
+		CE7ECB6218AA4B3D000AA33B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB6318AA4B55000AA33B /* Accelerometer.png */,
+				CE7ECB6418AA4B55000AA33B /* Credits.png */,
+				CE7ECB6518AA4B55000AA33B /* GPS.png */,
+				CE7ECB6618AA4B55000AA33B /* Proximity.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		CE7ECB7C18AA5D36000AA33B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ECB8B18AA965F000AA33B /* Globe.png */,
+				CE7ECB8918AA934F000AA33B /* Button.png */,
+				CE7ECB7D18AA5D54000AA33B /* bullseye.png */,
+				CE7ECB7E18AA5D54000AA33B /* Default.png */,
+				CE7ECB7F18AA5D54000AA33B /* pin.png */,
+				CE7ECB6B18AA5373000AA33B /* The App Bot White Right.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7ECB0D18A94555000AA33B /* Hardware_Devices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7ECB4318A94555000AA33B /* Build configuration list for PBXNativeTarget "Hardware_Devices" */;
+			buildPhases = (
+				CE7ECB0A18A94555000AA33B /* Sources */,
+				CE7ECB0B18A94555000AA33B /* Frameworks */,
+				CE7ECB0C18A94555000AA33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hardware_Devices;
+			productName = Hardware_Devices;
+			productReference = CE7ECB0E18A94555000AA33B /* Hardware_Devices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7ECB3118A94555000AA33B /* Hardware_DevicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7ECB4618A94555000AA33B /* Build configuration list for PBXNativeTarget "Hardware_DevicesTests" */;
+			buildPhases = (
+				CE7ECB2E18A94555000AA33B /* Sources */,
+				CE7ECB2F18A94555000AA33B /* Frameworks */,
+				CE7ECB3018A94555000AA33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7ECB3818A94555000AA33B /* PBXTargetDependency */,
+			);
+			name = Hardware_DevicesTests;
+			productName = Hardware_DevicesTests;
+			productReference = CE7ECB3218A94555000AA33B /* Hardware_DevicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7ECB0618A94555000AA33B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Paul Cefalu";
+				TargetAttributes = {
+					CE7ECB0D18A94555000AA33B = {
+						DevelopmentTeam = L94CZV8GU7;
+					};
+					CE7ECB3118A94555000AA33B = {
+						TestTargetID = CE7ECB0D18A94555000AA33B;
+					};
+				};
+			};
+			buildConfigurationList = CE7ECB0918A94555000AA33B /* Build configuration list for PBXProject "Hardware_Devices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7ECB0518A94555000AA33B;
+			productRefGroup = CE7ECB0F18A94555000AA33B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7ECB0D18A94555000AA33B /* Hardware_Devices */,
+				CE7ECB3118A94555000AA33B /* Hardware_DevicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7ECB0C18A94555000AA33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7ECB6A18AA4B55000AA33B /* Proximity.png in Resources */,
+				CE7ECC0718AB4CD1000AA33B /* CAccuracyCellView.xib in Resources */,
+				CE7ECB6918AA4B55000AA33B /* GPS.png in Resources */,
+				CE7ECB2D18A94555000AA33B /* Images.xcassets in Resources */,
+				CE7ECB8018AA5D54000AA33B /* bullseye.png in Resources */,
+				CE7ECB1C18A94555000AA33B /* InfoPlist.strings in Resources */,
+				CE7ECB8A18AA934F000AA33B /* Button.png in Resources */,
+				CE7ECB6C18AA5373000AA33B /* The App Bot White Right.png in Resources */,
+				CE7ECB2518A94555000AA33B /* Main.storyboard in Resources */,
+				CE7ECB8218AA5D54000AA33B /* pin.png in Resources */,
+				CE7ECB6718AA4B55000AA33B /* Accelerometer.png in Resources */,
+				CE7ECB8C18AA965F000AA33B /* Globe.png in Resources */,
+				CE7ECB6818AA4B55000AA33B /* Credits.png in Resources */,
+				CE7ECB8118AA5D54000AA33B /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7ECB3018A94555000AA33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7ECB3E18A94555000AA33B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7ECB0A18A94555000AA33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7ECB8718AA8576000AA33B /* CPopFromSegue.m in Sources */,
+				CE7ECB7918AA57E3000AA33B /* LocationDetailViewController.m in Sources */,
+				CE7ECB7718AA57E3000AA33B /* CLLocation (Strings).m in Sources */,
+				CE7ECB5418A9A6D5000AA33B /* CAccelerometerViewController.m in Sources */,
+				CE7ECB7A18AA57E3000AA33B /* SetupViewController.m in Sources */,
+				CE7ECB6118AA45C5000AA33B /* CMainViewController.m in Sources */,
+				CE7ECB2818A94555000AA33B /* CCreditsViewController.m in Sources */,
+				CE7ECB5C18AA1C0A000AA33B /* AccelerometerFilter.m in Sources */,
+				CE7ECB8818AA8576000AA33B /* CPushToSegue.m in Sources */,
+				CE7ECB7818AA57E3000AA33B /* GetLocationViewController.m in Sources */,
+				CE7ECB5D18AA1C0A000AA33B /* GraphView.m in Sources */,
+				CE7ECB2218A94555000AA33B /* CAppDelegate.m in Sources */,
+				CE7ECB1E18A94555000AA33B /* main.m in Sources */,
+				CE7ECB5118A9A6B2000AA33B /* CProximityViewController.m in Sources */,
+				CE7ECC0818AB4CD1000AA33B /* CAccuracyCellViewController.m in Sources */,
+				CE7ECB4B18A9A42E000AA33B /* CGPSViewController.m in Sources */,
+				CE7ECB7B18AA57E3000AA33B /* TrackLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7ECB2E18A94555000AA33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7ECB4018A94555000AA33B /* Hardware_DevicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7ECB3818A94555000AA33B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7ECB0D18A94555000AA33B /* Hardware_Devices */;
+			targetProxy = CE7ECB3718A94555000AA33B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7ECB1A18A94555000AA33B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7ECB1B18A94555000AA33B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE7ECB2318A94555000AA33B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7ECB2418A94555000AA33B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7ECB3C18A94555000AA33B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7ECB3D18A94555000AA33B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7ECB4118A94555000AA33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE7ECB4218A94555000AA33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7ECB4418A94555000AA33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hardware_Devices/Hardware_Devices-Prefix.pch";
+				INFOPLIST_FILE = "Hardware_Devices/Hardware_Devices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE7ECB4518A94555000AA33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hardware_Devices/Hardware_Devices-Prefix.pch";
+				INFOPLIST_FILE = "Hardware_Devices/Hardware_Devices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE7ECB4718A94555000AA33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hardware_Devices.app/Hardware_Devices";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hardware_Devices/Hardware_Devices-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hardware_DevicesTests/Hardware_DevicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE7ECB4818A94555000AA33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hardware_Devices.app/Hardware_Devices";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hardware_Devices/Hardware_Devices-Prefix.pch";
+				INFOPLIST_FILE = "Hardware_DevicesTests/Hardware_DevicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7ECB0918A94555000AA33B /* Build configuration list for PBXProject "Hardware_Devices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7ECB4118A94555000AA33B /* Debug */,
+				CE7ECB4218A94555000AA33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7ECB4318A94555000AA33B /* Build configuration list for PBXNativeTarget "Hardware_Devices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7ECB4418A94555000AA33B /* Debug */,
+				CE7ECB4518A94555000AA33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE7ECB4618A94555000AA33B /* Build configuration list for PBXNativeTarget "Hardware_DevicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7ECB4718A94555000AA33B /* Debug */,
+				CE7ECB4818A94555000AA33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7ECB0618A94555000AA33B /* Project object */;
+}
